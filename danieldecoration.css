@@ -1,0 +1,966 @@
+.paralex-effect{
+    background-image: url("Danyil.png");
+    background-attachment: fixed;
+    min-height: 650px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: grayscale(100%);
+}
+
+.navbar{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+
+.navbar-brand{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.name{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.name p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+
+/* MEDIA QUIRIES*/
+
+/* Phone view */ 
+@media screen and (max-width: 767px){
+    .paralex-effect{
+        background-image: url("Danyil.png");
+        background-attachment: fixed;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        filter: grayscale(100%);
+    }
+
+    .navbar{
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: normal;
+        
+    }
+ 
+    .navbar li{
+        text-align: center;
+    }
+
+    .navbar-brand{
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .name{
+        padding: 30px;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        
+    }
+    
+    .name p{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+    }
+    
+}
+
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+    .paralex-effect{
+        background-image: url("Danyil.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        filter: grayscale(100%);
+        min-height: 850px;
+    }
+
+    .navbar{
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: normal;
+        
+    }
+ 
+    .navbar li{
+        text-align: center;
+    }
+
+    .navbar-brand{
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .name{
+        padding: 30px;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        
+    }
+    .name h1{
+        font-size: 3rem;
+    }
+    
+    .name p{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+        font-size: 1.5rem;
+    }
+  }
+
+ /* For landscape layouts only */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    .paralex-effect{
+        background-image: url("Danyil.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        filter: grayscale(100%);
+        min-height: 800px;
+    }
+
+    .navbar{
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: normal;
+        
+    }
+
+    .navbar-brand{
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .name{
+        padding: 30px;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        
+    }
+    .name h1{
+        font-size: 3rem;
+    }
+    
+    .name p{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+        font-size: 1.5rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* About */
+
+  .about{
+      width: 100%;
+      padding: 60px;
+      background-color: white;
+      margin-bottom: 4%;
+  }
+
+  .about h1{
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      font-size: 2.5rem;
+      float: left;
+      padding-bottom: 20px;
+      margin-top: 5%;
+  }
+
+  .about p{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1.5rem;
+      float: left;
+      text-indent: 30px;
+      padding-bottom: 10px;
+  }
+
+
+
+
+
+
+
+/*MEDIA QUIRIES*/
+
+  /* Phone view */ 
+@media screen and (max-width: 767px){
+    .about{
+        width: 100%;
+        padding: 30px;
+    }
+  
+    .about h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 2.5rem;
+        float: left;
+        padding-bottom: 20px;
+        margin-top: 3.5%;
+    }
+  
+    .about p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        float: left;
+        text-indent: 30px;
+        padding-bottom: 10px;
+    }
+  
+}
+
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+    .about{
+        width: 100%;
+        padding: 40px;
+    }
+  
+    .about h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 3rem;
+        float: left;
+        padding-bottom: 20px;
+        margin-top: 5%;
+    }
+  
+    .about p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2rem;
+        float: left;
+        text-indent: 30px;
+        padding-bottom: 10px;
+    }
+  
+  }
+
+
+ /* For landscape layouts only */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    .about{
+        width: 100%;
+        padding: 40px;
+    }
+  
+    .about h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 3rem;
+        float: left;
+        padding-bottom: 20px;
+        margin-top: 5%;
+    }
+  
+    .about p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2rem;
+        float: left;
+        text-indent: 30px;
+        padding-bottom: 10px;
+    }
+  
+  }
+
+
+
+
+
+
+
+
+.cando, .moreinfo{
+    width: 100%;
+    overflow: hidden;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.cando h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+ul li{
+    text-decoration: none;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+.moreinfo{
+    background-color: white;
+    border: 0;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUIRIES*/
+
+  /* Phone view */ 
+  @media screen and (max-width: 767px){
+
+    .cando, .moreinfo{
+        width: 100%;
+        overflow: hidden;
+        background-color: white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        align-items: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    .cando h3{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: normal;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 15px 0 10px 0;
+    }
+    
+    ul li{
+        text-decoration: none;
+        font-size: 1.5rem;
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    .moreinfo{
+        background-color: white;
+        border: 0;
+        outline: none;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    
+  }
+
+
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+
+    .cando, .moreinfo{
+        width: 100%;
+        overflow: hidden;
+        background-color: white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        align-items: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    .cando h3{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: normal;
+        font-size: 3rem;
+        text-align: center;
+        padding: 15px 0 10px 0;
+    }
+    
+    ul li{
+        text-decoration: none;
+        font-size: 2rem;
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    .moreinfo{
+        background-color: white;
+        border: 0;
+        outline: none;
+        font-size: 2rem;
+        padding: 0;
+    }
+}
+
+
+
+
+/* For landscape layouts only */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+    .cando, .moreinfo{
+        width: 100%;
+        overflow: hidden;
+        background-color: white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        align-items: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    .cando h3{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: normal;
+        font-size: 3rem;
+        text-align: center;
+        padding: 15px 0 10px 0;
+    }
+    
+    ul li{
+        text-decoration: none;
+        font-size: 2rem;
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    .moreinfo{
+        background-color: white;
+        border: 0;
+        outline: none;
+        font-size: 2rem;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .mywork{
+    width: 100%;
+    padding: 60px;
+    background-color: white;
+    margin-top: 5%;
+  }
+
+  .mywork h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+    float: left;
+    padding-bottom: 20px;
+    margin-top: 15%;
+  }
+
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+  }
+
+  .row .column{
+      flex: 33.3%;
+      width: auto;
+      overflow: hidden;
+      padding: 4px;
+      height: 100%;
+  }
+
+  .row .column img{
+      margin-top: 3%;
+      width: 100%;
+      height: 100%;
+  } 
+
+
+
+
+
+
+
+/*MEDIA QUIRIES*/
+    /* Phone view */ 
+@media screen and (max-width: 767px){
+    .mywork{
+        width: 100%;
+        padding: 30px;
+        background-color: black;
+    }
+  
+    .mywork h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 2.5rem;
+        float: left;
+        padding-bottom: 20px;
+        margin-top: 25%;
+    }
+
+  
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+  
+    .row .column{
+        flex: 100%;
+        width: 100%;
+        overflow: hidden;
+        padding: 4px;
+        height: 100%;
+    }
+  
+    .row .column img{
+        margin-top: 4%;
+        width: 100%;
+        height: 100%;
+    } 
+  
+  
+}
+
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+    .mywork{
+        width: 100%;
+        padding: 40px;
+    }
+  
+    .mywork h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 3rem;
+        float: left;
+        padding-bottom: 20px;
+        margin-top: 5%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+  
+    .row .column{
+        flex: 100%;
+        width: 100%;
+        overflow: hidden;
+        padding: 4px;
+        height: 100%;
+    }
+  
+    .row .column img{
+        margin-top: 4%;
+        width: 100%;
+        height: 100%;
+    } 
+  
+  }
+
+
+ /* For landscape layouts only */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    .mywork{
+        width: 100%;
+        padding: 40px;
+    }
+  
+    .mywork h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 3rem;
+        float: left;
+        padding-bottom: 20px;
+        margin-top: 5%;
+    }
+
+    .row{
+        flex: 100%;
+        width: 100%;
+        overflow: hidden;
+        padding: 4px;
+        height: 100%;
+    }
+  
+    .row .column{
+        width: 100%;
+        overflow: hidden;
+        padding: 4px;
+        height: 100%;
+    }
+  
+    .row .column img{
+        margin-top: 4%;
+        width: 100%;
+        height: 100%;
+    } 
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .contact{
+      font-family: 'Courier New', Courier, monospace;
+      width: 100%;
+      overflow: hidden;
+      align-content: center;
+  }
+
+  .contacting h1{
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2.5rem;
+      margin: 15% 0 6% 0;
+  }
+
+  input, textarea{
+    background-color: #e7e8ee;
+    border: 0;
+    outline: 0;
+    padding: 14px;
+    border-radius: 12px;
+    margin: 2.5% auto;
+    display: block;
+    width: 40%;
+    overflow: hidden;
+  }
+
+ .contacting button{
+     display: block;
+     margin: auto;
+      background-color: white;
+      border: .5px solid black;
+      color: black;
+      padding: 10px;
+      border-radius: 10px;
+      width: 15%;
+      font-family: 'Courier New', Courier, monospace;
+      margin-bottom: 5%;
+  }
+
+ 
+/* MEDIA QUIRIES*/
+
+      /* Phone view */ 
+@media screen and (max-width: 767px){
+    .contact{
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        overflow: hidden;
+        align-content: center;
+    }
+  
+    .contacting h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 15% 0 6% 0;
+    }
+  
+    input, textarea{
+      background-color: #e7e8ee;
+      border: 0;
+      outline: 0;
+      padding: 14px;
+      border-radius: 12px;
+      margin: 2.5% auto;
+      display: block;
+      width: 90%;
+      overflow: hidden;
+    }
+  
+   .contacting button{
+       display: block;
+       margin: auto;
+        background-color: white;
+        border: .5px solid black;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        width: 40%;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 5%;
+    }
+  
+}
+
+
+
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+    .contact{
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        overflow: hidden;
+        align-content: center;
+    }
+  
+    .contacting h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        margin: 15% 0 6% 0;
+    }
+  
+    input, textarea{
+      background-color: #e7e8ee;
+      border: 0;
+      outline: 0;
+      padding: 16px;
+      border-radius: 12px;
+      margin: 2.5% auto;
+      display: block;
+      width: 90%;
+      overflow: hidden;
+      font-size: 1.5rem;
+    }
+  
+   .contacting button{
+       display: block;
+       margin: auto;
+        background-color: white;
+        border: .5px solid black;
+        color: black;
+        padding: 16px;
+        border-radius: 10px;
+        width: 40%;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+ /* For landscape layouts only */
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+    .contact{
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        overflow: hidden;
+        align-content: center;
+    }
+  
+    .contacting h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        margin: 15% 0 6% 0;
+    }
+  
+    input, textarea{
+      background-color: #e7e8ee;
+      border: 0;
+      outline: 0;
+      padding: 16px;
+      border-radius: 12px;
+      margin: 2.5% auto;
+      display: block;
+      width: 90%;
+      overflow: hidden;
+      font-size: 1.5rem;
+    }
+  
+   .contacting button{
+       display: block;
+       margin: auto;
+        background-color: white;
+        border: .5px solid black;
+        color: black;
+        padding: 16px;
+        border-radius: 10px;
+        width: 40%;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+    }
+ }
+
+
+
+ footer{
+     width: 100%;
+     overflow: hidden;
+     margin-top: 3%;
+     font-family: 'Courier New', Courier, monospace;
+     float: left;
+     padding:15px 0 0 15px;
+     color: grey;
+ }
+
+
+
+
+ /* MEDIA QUIRIES */
+ /*FOR PHONES*/
+ @media screen and (max-width: 767px){
+    footer{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 10%;
+        font-family: 'Courier New', Courier, monospace;
+        float: left;
+        padding:15px 0 0 15px;
+        color: grey;
+        font-size: 1rem;
+    }
+
+ }
+
+
+ /* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+    footer{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 6%;
+        font-family: 'Courier New', Courier, monospace;
+        float: left;
+        padding:15px 0 0 15px;
+        color: grey;
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+ /* For landscape layouts only */
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+    footer{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 6%;
+        font-family: 'Courier New', Courier, monospace;
+        float: left;
+        padding:15px 0 0 15px;
+        color: grey;
+        font-size: 2rem;
+    }
+ }
