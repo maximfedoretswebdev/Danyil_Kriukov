@@ -320,6 +320,8 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
   }
   .hvrbox .hvrbox-text_mobile {
     font-size: 15px;
@@ -367,3 +369,37 @@
     opacity: 1;
   }
 }
+
+
+
+
+
+
+
+
+
+
+.mygoal{
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #2d2d2d;
+  white-space: pre-wrap;
+}
+
+
+
+
+  /* Media Queries */
+  @media screen and (max-width:767px){
+
+    .mygoal{
+      padding: 20px;
+      background-color: #ffffff;
+      text-align: center;
+      color: #2d2d2d;
+      margin-top: 5%;
+      white-space: pre-wrap;
+    }    
+
+  }
