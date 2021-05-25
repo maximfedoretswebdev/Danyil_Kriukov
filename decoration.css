@@ -569,6 +569,7 @@ footer{
   margin-top: 2%;
   background-color: #f5f5f7;
   color: #ffffff;
+  font-weight: lighter;
 }
 
 
@@ -577,7 +578,7 @@ footer{
     padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-around;
     text-emphasis: none;
     text-align: center;
   }
@@ -585,3 +586,72 @@ footer{
 .moreLinks2 li{
   color: #2d2d2d;
 }
+
+
+
+
+
+
+ /* Media Queries */
+ @media screen and (max-width:767px){
+
+  .moreLinks2{
+    margin-top: 2%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-emphasis: none;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.moreLinks2 li{
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+footer .socialLinks{
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin: 2% 5% 0 0;
+  font-weight: normal;
+}
+
+
+
+
+ /* Media Queries */
+ @media screen and (max-width:767px){
+
+  .socialLinks li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: normal;
+    font-size: .9rem;
+  }
+
+  .socialLinks .insta{
+    display: none;
+  }
+
+
+ }
