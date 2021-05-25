@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .navbar-brand{
@@ -402,4 +403,157 @@
       white-space: pre-wrap;
     }    
 
+  }
+
+
+
+
+
+
+
+
+
+.getInTouch{
+  background-image: url("seattle2.jpg");
+  filter: brightness(90%);
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.getInTouch h1{
+  margin-top: 10%;
+  margin-left: 6%;
+  font-weight: normal;
+  color: #fff;
+  font-size: 4.5rem;
+}
+
+
+.btn-dark{
+  margin-left: 6%;
+  padding: 15px;
+  border-radius: 0;
+  background-color: black;
+}
+
+
+
+
+  /* Media Queries */
+  @media screen and (max-width:767px){
+
+    .getInTouch{
+      background-image: url("seattle2.jpg");
+      filter: brightness(85%);
+      background-color: grey;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 70vh;
+    }
+    
+    .getInTouch h1{
+      margin-top: 30%;
+      margin-left: 6%;
+      font-weight: normal;
+      color: #fff;
+      font-size: 4.5rem;
+    }
+    
+    
+    .btn-dark{
+      margin-left: 6%;
+      margin-top: 5%;
+      padding: 15px;
+      border-radius: 0;
+      background-color: black;
+    }
+  }
+
+
+
+
+
+
+
+
+
+.moreLinks{
+  margin-top: 3%;
+  padding: 20px;
+  text-align: center;
+  color: #2d2d2d;
+  background-color: #ffffff;
+}
+
+.moreLinks ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+ul li{
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+a{
+  text-emphasis: none;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.clients:hover, .prints:hover{
+  color: #2d2d2d;
+  text-decoration: underline;
+  margin-bottom: 2.5%;
+}
+
+a:hover{
+  color: #2d2d2d;
+}
+
+
+
+
+  /* Media Queries */
+  @media screen and (max-width:767px){
+
+    .moreLinks{
+      margin-top: 3%;
+      padding: 13px;
+      text-align: center;
+      color: #2d2d2d;
+      background-color: #ffffff;
+    }
+    
+    .moreLinks ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    
+    ul li{
+      font-size: 1.5rem;
+      font-weight: lighter;
+      margin-top: 5%;
+      text-decoration: underline;
+    }
+    
+    a{
+      text-emphasis: none;
+      color: #2d2d2d;
+      text-decoration: none;
+    }
+    
+    .clients:hover, .prints:hover{
+      color: #2d2d2d;
+    }
+    
+    a:hover{
+      color: #2d2d2d;
+    }
   }
