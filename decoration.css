@@ -9,7 +9,6 @@
   margin-right: 5%;
 }
 
-
 .slideshowSection{
   padding:0;
   margin: 0;
@@ -18,7 +17,7 @@
 }
 
 .carousel{
-  margin: 0;
+  margin:0;
   padding:0;
   width: 100%;
   height: 95vh;
@@ -167,6 +166,7 @@
 
 
 
+
 /* Media Queries */
 @media screen and (max-width:767px){
 
@@ -224,36 +224,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Gallery */
 .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -347,6 +318,7 @@
 
 
 
+
   /* Media Queries */
 @media screen and (max-width:767px){
 
@@ -399,6 +371,7 @@
 
 
 
+
   /* Media Queries */
   @media screen and (max-width:767px){
 
@@ -411,7 +384,8 @@
       white-space: pre-wrap;
     }    
 
-  }
+}
+
 
 
 
@@ -450,6 +424,7 @@
 
 
 
+
   /* Media Queries */
   @media screen and (max-width:767px){
 
@@ -480,6 +455,8 @@
       background-color: black;
     }
   }
+
+
 
 
 
@@ -527,6 +504,7 @@ a:hover{
 
 
 
+
   /* Media Queries */
   @media screen and (max-width:767px){
 
@@ -548,7 +526,7 @@ a:hover{
       font-size: 1.5rem;
       font-weight: lighter;
       margin-top: 5%;
-      text-decoration: underline;
+      text-decoration: none;
     }
     
     a{
@@ -565,6 +543,8 @@ a:hover{
       color: #2d2d2d;
     }
   }
+
+
 
 
 
@@ -599,7 +579,6 @@ footer{
 
 
 
-
  /* Media Queries */
  @media screen and (max-width:767px){
 
@@ -618,12 +597,7 @@ footer{
   color: #2d2d2d;
   text-decoration: none;
 }
-
-
-
  }
-
-
 
 
 
@@ -641,6 +615,8 @@ footer .socialLinks{
   margin: 2% 5% 0 0;
   font-weight: normal;
 }
+
+
 
 
 
@@ -663,3 +639,144 @@ footer .socialLinks{
 
 
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*                                                 ABOUT PAGE */
+
+ .moreabout{
+  margin-top: -5%;
+  background-image: url("danyil2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  vertical-align: center;
+  border-style: none;
+  background-color: #2d2d2d;
+  height: 98vh;
+  width: 100%;
+ }
+
+
+ /* Media Queries */
+ @media screen and (max-width:767px){
+
+  .moreabout{
+    margin-top: 0;
+    background-image: url("danyil2.jpg");
+    background-position: right center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    vertical-align: center;
+    border-style: none;
+    background-color: #2d2d2d;
+    height: 98vh;
+    width: 100%;
+   }
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .moreaboutText{
+   text-align: center;
+   padding: 30px;
+   width: 50%;
+   margin: 0 auto;
+ }
+
+ .moreaboutText h1{
+   font-weight: normal;
+   margin: 2% 0 8% 0;
+ }
+
+ .moreaboutText p{
+   font-weight: lighter;
+
+ }
+
+
+
+
+  /* Media Queries */
+  @media screen and (max-width:767px){
+
+    .moreaboutText{
+      text-align: center;
+      padding: 30px;
+      width: 100%;
+      margin: 0 auto;
+    }
+   
+    .moreaboutText h1{
+      font-weight: normal;
+      margin: 2% 0 8% 0;
+    }
+   
+    .moreaboutText p{
+      font-weight: lighter;
+   
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ .moreAboutPicture{
+   background-image: url("seattle2.jpg");
+   background-color: #2d2d2d;
+   height: 70vh;
+   background-position: top center;
+   background-size: cover;
+ }
+
+
+
+
+   /* Media Queries */
+   @media screen and (max-width:767px){
+
+    .moreAboutPicture{
+      background-image: url("seattle2.jpg");
+      background-color: #2d2d2d;
+      height: 60vh;
+      background-position: top center;
+      background-size: cover;
+    }
+
+   }
