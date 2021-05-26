@@ -361,7 +361,9 @@
 
 
 .mygoal{
-  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
   background-color: #ffffff;
   text-align: center;
   color: #2d2d2d;
@@ -380,7 +382,8 @@
       background-color: #ffffff;
       text-align: center;
       color: #2d2d2d;
-      margin-top: 5%;
+      margin-top: 3%;
+      width: 100%;
       white-space: pre-wrap;
     }    
 
@@ -661,7 +664,6 @@ footer .socialLinks{
  /*                                                 ABOUT PAGE */
 
  .moreabout{
-  margin-top: -5%;
   background-image: url("danyil2.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -673,6 +675,22 @@ footer .socialLinks{
   height: 98vh;
   width: 100%;
  }
+
+ #gallery {
+  line-height:0;
+  -webkit-column-count:2; /* split it into 5 columns */
+  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  -moz-column-count:2;
+  -moz-column-gap:5px;
+  column-count:2;
+  column-gap:10px;
+}
+
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
+}
 
 
  /* Media Queries */
@@ -724,6 +742,7 @@ footer .socialLinks{
 
 
 
+
   /* Media Queries */
   @media screen and (max-width:767px){
 
@@ -755,8 +774,6 @@ footer .socialLinks{
 
 
 
-
-
  .moreAboutPicture{
    background-image: url("seattle2.jpg");
    background-color: #2d2d2d;
@@ -768,6 +785,7 @@ footer .socialLinks{
 
 
 
+ 
    /* Media Queries */
    @media screen and (max-width:767px){
 
@@ -779,4 +797,73 @@ footer .socialLinks{
       background-size: cover;
     }
 
+   }
+
+
+
+
+
+
+
+
+
+.carziz{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("car1.jpg");
+  height: 65vh;
+  text-emphasis: none;
+  text-align: center;
+  background-size: cover;
+  filter: brightness(80%);
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+
+.carziz h1{
+  font-size: 5rem;
+  margin: 12% auto;
+}
+
+
+
+
+   /* Media Queries */
+   @media screen and (max-width:767px){
+
+    .carziz{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("car1.jpg");
+      height: 50vh;
+      text-emphasis: none;
+      text-align: center;
+      background-size: cover;
+      filter: brightness(80%);
+      color: #ffffff;
+      margin-bottom: 5%;
+    }
+    
+    .carheading{
+      font-size: 5rem;
+      margin-top: 20%;
+    }
+    
+
+    #gallery {
+      line-height:0;
+      -webkit-column-count:1; /* split it into 5 columns */
+      -webkit-column-gap:5px; /* give it a 5px gap between columns */
+      -moz-column-count:1;
+      -moz-column-gap:5px;
+      column-count:1;
+      column-gap:10px;
+    }
+    
+    #gallery img {
+      width: 100% !important;
+      height: auto !important;
+      margin-bottom:5px; /* to match column gap */
+    }
+    
    }
