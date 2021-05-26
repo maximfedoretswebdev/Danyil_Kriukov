@@ -9,6 +9,7 @@
   margin-right: 5%;
 }
 
+
 .slideshowSection{
   padding:0;
   margin: 0;
@@ -807,6 +808,11 @@ footer .socialLinks{
 
 
 
+
+
+
+
+/*                                                Car Gallery Page */
 .carziz{
   background-position: center;
   background-repeat: no-repeat;
@@ -829,41 +835,117 @@ footer .socialLinks{
 
 
    /* Media Queries */
-   @media screen and (max-width:767px){
+@media screen and (max-width:767px){
 
-    .carziz{
-      background-position: center;
-      background-repeat: no-repeat;
-      background-image: url("car1.jpg");
-      height: 50vh;
-      text-emphasis: none;
-      text-align: center;
-      background-size: cover;
-      filter: brightness(80%);
-      color: #ffffff;
-      margin-bottom: 5%;
-    }
+.carziz{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("car1.jpg");
+  height: 50vh;
+  text-emphasis: none;
+  text-align: center;
+  background-size: cover;
+  filter: brightness(80%);
+  color: #ffffff;
+  margin-bottom: 5%;
+}
     
-    .carheading{
-      font-size: 5rem;
-      margin-top: 20%;
-    }
+.carheading{
+  font-size: 5rem;
+  margin-top: 20%;
+}
     
 
-    #gallery {
-      line-height:0;
-      -webkit-column-count:1; /* split it into 5 columns */
-      -webkit-column-gap:5px; /* give it a 5px gap between columns */
-      -moz-column-count:1;
-      -moz-column-gap:5px;
-      column-count:1;
-      column-gap:10px;
-    }
+#gallery {
+  line-height:0;
+  -webkit-column-count:1; /* split it into 5 columns */
+  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  -moz-column-count:1;
+  -moz-column-gap:5px;
+  column-count:1;
+  column-gap:10px;
+}
     
-    #gallery img {
-      width: 100% !important;
-      height: auto !important;
-      margin-bottom:5px; /* to match column gap */
-    }
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                                Nature Gallery Page */
+.natureziz{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("nature1.jpg");
+  height: 65vh;
+  text-emphasis: none;
+  text-align: center;
+  background-size: cover;
+  filter: brightness(80%);
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+
+.natureheading h1{
+  font-size: 5rem;
+  margin: 12% auto;
+}
+
+
+/* Media Queries */
+@media screen and (max-width:767px){
+
+.natureziz{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("nature1.jpg");
+  height: 50vh;
+  text-emphasis: none;
+  text-align: center;
+  background-size: cover;
+  filter: brightness(80%);
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+        
+.natureheading{
+  font-size: 5rem;
+  margin-top: 20%;
+}
+        
     
-   }
+#gallery {
+  line-height:0;
+  -webkit-column-count:1; /* split it into 5 columns */
+  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  -moz-column-count:1;
+  -moz-column-gap:5px;
+  column-count:1;
+  column-gap:10px;
+}
+        
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
+}
+}
+    
