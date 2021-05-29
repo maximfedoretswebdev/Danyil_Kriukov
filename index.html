@@ -15,7 +15,7 @@
   <body>
 
 <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">D.K. |</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,7 +90,7 @@
             <p>Hello, I'm Danyil</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, mollitia ab vel ullam tenetur ea quisquam eligendi quod nulla animi ipsum sequi cumque obcaecati, minus similique tempora, beatae voluptatum saepe!</p>
             <a href="about.html">
-            <button type="button" class="btn btn-dark">Learn more</button>
+            <button type="button" class="btn btn-dark" id="learnmore">Learn more</button>
             </a>
         </div>
 
@@ -105,43 +105,72 @@
 <section class="gallerySection">
     <div class="row"> 
         <div class="column">
-            <!-- Link to GALLERY -->
-            <a href="cargallery.html">
-                <div class="hvrbox">
-                    <img src="car1.jpg" style="width:100%">
-                        <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text">CARS PHOTOGRAPHy</div>
-                        </div>
-                </div>
-            </a>
-            <!--Link to GALLERY-->
-            <a href="#" onclick=displayAlerts()>
-                <div class="hvrbox">
-                    <img src="city1.jpg" style="width:100%">
-                        <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text">LAND SCCAPES</div>
-                        </div>
-                </div>
-            </a>
+            <div class="hovereffect">
+                <img class ="img-responsive" src="car2.jpg" style="width: 100%;">
+                    <div class="overlay">
+                        <h1>Car Photography</h1>
+                        <a href="cargallery.html">
+                        <button type="button" class="btn btn-dark" id="explore">Explore</button>
+                        </a>
+                    </div>
+            </div>
+          <!-- <img src="nature1.jpg" style="width:100%">
+          <img src="city1.jpg" style="width:100%">
+          <img src="nature2.jpg" style="width:100%">
+          <img src="/w3images/nature.jpg" style="width:100%">
+          <img src="/w3images/mist.jpg" style="width:100%">
+          <img src="/w3images/paris.jpg" style="width:100%"> --> 
         </div>
         <div class="column">
-            <a href="naturegallery.html">
-                <div class="hvrbox" >
-                    <img src="nature1.jpg" style="width:100%">
-                        <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text">NATURE PHOTOGRAPHY</div>
-                        </div>
-                </div>
-            </a>
-        </div>
-            <!-- -->
-            <!-- <div class="hvrbox">
-            <img src="nature2.jpg" style="width:100%">
-            <div class="hvrbox-layer_top">
-                <div class="hvrbox-text">MORE PHOTOS</div>
+            <div class="hovereffect">
+                <img class ="img-responsive" src="nature2.jpg" style="width: 100%;">
+                    <div class="overlay">
+                        <h1>Landscape Photography</h1>
+                        <a href="naturegallery.html">
+                        <button type="button" class="btn btn-dark" id="explore">Explore</button>
+                        </a>
+                    </div>
             </div>
-            </div> -->
+          <!-- <img src="/w3images/ocean.jpg" style="width:100%">
+          <img src="/w3images/wedding.jpg" style="width:100%">
+          <img src="/w3images/mountainskies.jpg" style="width:100%">
+          <img src="/w3images/rocks.jpg" style="width:100%">
+          <img src="/w3images/underwater.jpg" style="width:100%"> -->
+        </div>  
+        <div class="column">
+            <div class="hovereffect">
+                <img class ="img-responsive" src="city1.jpg" style="width: 100%;">
+                    <div class="overlay">
+                        <h1>Cityscapes Photography</h1>
+                        <a href="#">
+                        <button type="button" class="btn btn-dark" id="explore">Explore</button>
+                        </a>
+                    </div>
+            </div>
+          <!-- <img src="/w3images/rocks.jpg" style="width:100%">
+          <img src="/w3images/falls2.jpg" style="width:100%">
+          <img src="/w3images/paris.jpg" style="width:100%">
+          <img src="/w3images/nature.jpg" style="width:100%">
+          <img src="/w3images/mist.jpg" style="width:100%">
+          <img src="/w3images/paris.jpg" style="width:100%"> -->
         </div>
+        <div class="column">
+            <div class="hovereffect">
+                <img class ="img-responsive" src="more.jpg" style="width: 100%;">
+                    <div class="overlay">
+                        <h1>More</h1>
+                        <a href="#">
+                        <button type="button" class="btn btn-dark" id="explore">Explore</button>
+                        </a>
+                    </div>
+            </div>
+          <!-- <img src="/w3images/ocean.jpg" style="width:100%">
+          <img src="/w3images/wedding.jpg" style="width:100%">
+          <img src="/w3images/mountainskies.jpg" style="width:100%">
+          <img src="/w3images/rocks.jpg" style="width:100%">
+          <img src="/w3images/underwater.jpg" style="width:100%"> -->
+        </div>
+      </div>
 </section>
 
 
